@@ -6,6 +6,7 @@ Starts a Flask web app
 """
 from flask import Flask
 
+
 # Create an instance of the Flask class
 app = Flask(__name__)
 
