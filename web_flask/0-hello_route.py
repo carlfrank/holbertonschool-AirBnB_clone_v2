@@ -10,6 +10,7 @@ from flask import Flask
 # Create an instance of the Flask class
 app = Flask(__name__)
 
+
 # Define the route for the root URL and set strict_slashes to False
 @app.route('/', strict_slashes=False)
 def hello():
